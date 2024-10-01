@@ -93,9 +93,15 @@
 
 .project-ready {
     display: flex;
-    margin-top: 60px;
+    flex-direction: column;
+    margin-top: -260px;
     width: 1140px;
     height: 797px;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
+}
+
+.project-ready button {
+    display: flex;
+    flex-direction: row;
 }
