@@ -70,13 +70,14 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    box-shadow: 0px 20px 30px rgba(240, 192, 158, 0.1);
+    box-shadow: 0px 30px 40px rgba(240, 192, 158, 0.1);
     width: 214px;
     height: 68px;
     border: none;
     border-radius: 10px;
     background-color: #CEAAFF;
     color: #000;
+    cursor: pointer;
 }
 
 .arrow {
@@ -87,8 +88,6 @@
     width: 20.5px;
     height: 21px;
     margin-top: 150px;
-    
-    
 }
 
 .project-ready {
@@ -96,7 +95,7 @@
     flex-direction: column;
     margin-top: -260px;
     width: 1140px;
-    height: 797px;
+    height: 1100px;
     align-items: center;
     justify-content: center;
 }
@@ -104,4 +103,11 @@
 .project-ready button {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 224px;
+    height: 56px;
+    border: none;
+    border-radius: 100px;
+    background-color: #182632;
 }
