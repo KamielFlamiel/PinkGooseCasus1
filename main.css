@@ -87,27 +87,33 @@
     justify-content: center;
     width: 20.5px;
     height: 21px;
-    margin-top: 150px;
+    margin-top: 140px;
 }
 
-.project-ready {
+.project-ready-text {
     display: flex;
     flex-direction: column;
-    margin-top: -260px;
-    width: 1140px;
-    height: 1100px;
+    width: 1000px;
+    height: 150px;
     align-items: center;
     justify-content: center;
 }
 
-.project-ready button {
+.project-ready-DOA {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 224px;
+}
+
+.project-ready-DOA button {
     height: 56px;
     border: none;
     border-radius: 100px;
     background-color: #182632;
+    margin: 10px;
 }
+
+
+
+
