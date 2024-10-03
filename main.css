@@ -143,4 +143,23 @@
     color: #000;
 }
 
+.design-journey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 54px;
+    font-weight: bold;
+    color: #37424d;
+    padding-top: 150px;
+}
+
+
+
+
+
+
+
+
+
 
