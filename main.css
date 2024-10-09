@@ -31,6 +31,23 @@
     height: 44px;
 }
 
+.pink-logo {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif; 
+    font-weight: bold; 
+    font-size: 40px; 
+    color: #fff;
+}
+
+.goose-logo {
+    text-decoration: none; 
+    font-family: "Montserrat", sans-serif; 
+    font-weight: bold; 
+    font-size: 40px; 
+    word-spacing: 50px; 
+    color: #ffB4D3;
+}
+
 .text-container {
     display: flex;   
     justify-content: space-evenly;
@@ -40,6 +57,14 @@
     background-color: #0A1117;
     font-family: "Montserrat", sans-serif;
     color: #fff;
+}
+
+.nav-text {
+    word-spacing: 20px; 
+    text-decoration: none; 
+    font-family: "Montserrat", sans-serif; 
+    color: #fff; 
+    font-weight: 550;
 }
 
 .login {
@@ -52,6 +77,9 @@
     height: 44px;
     border: none;
     border-radius: 10px;
+    font-family: "Montserrat", sans-serif; 
+    font-weight: normal; 
+    font-size: 18px;
 }
 
 .get-started {
@@ -63,6 +91,28 @@
     height: 412px;
     background-color: #0A1117;
     text-align: center;
+}
+
+.get-started-head-text {
+    color:#fff; 
+    font-family: "Lato", sans-serif; 
+    font-size: 72px; 
+    font-weight: bold;
+}
+
+.get-started-text {
+    color:#fff; 
+    font-family: "Montserrat", sans-serif; 
+    margin-bottom: 10px; 
+    font-size: 26px;
+}
+
+.get-started-button-text {
+    font-family: "Montserrat", sans-serif; 
+    font-size: 20px; 
+    outline: none; 
+    margin-bottom: -80px; 
+    font-weight: bold;
 }
 
 .get-started button {
@@ -98,6 +148,10 @@
     align-items: center;
     justify-content: space-evenly;
     margin-right: 190px;
+    color: #fff; 
+    font-family: "Lato", sans-serif; 
+    font-weight: bold; 
+    font-size: 54px;
 }
 
 .star-1 {
@@ -121,6 +175,44 @@
     margin: 10px;
 }
 
+.large-button {
+    width: 224px; 
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 500; 
+    font-size: 20px;
+}
+
+.medium-button {
+    width: 184px; 
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 500; 
+    font-size: 20px;
+}
+
+.small-button {
+    width: 179px; 
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 500; 
+    font-size: 20px; 
+    color: #23c9de;
+}
+
+.smaller-button {
+    width: 153px; 
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 500; 
+    font-size: 20px; 
+    color: #ff9e9e;
+}
+
+.smallest-button {
+    width: 130px; 
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 500; 
+    font-size: 20px; 
+    color: #707f8d;
+}
+
 .artwork {
     width: 1140px;
     height: 493px;
@@ -141,6 +233,9 @@
     margin-top: -20px;
     background-color: #ffb4d3;
     color: #000;
+    font-family: "Montserrat", sans-serif; 
+    font-size: 18px; 
+    font-weight: bold;
 }
 
 .design-journey {
@@ -152,6 +247,23 @@
     font-weight: bold;
     color: #37424d;
     padding-top: 150px;
+}
+
+.design-journey-head-text {
+    color: #e5e5e5; 
+    font-family: "Lato", sans-serif; 
+    padding-bottom: 50px;
+}
+
+.design-journey-row-text {
+    font-family: "Lato", sans-serif; 
+    padding-bottom: 10px
+}
+
+.design-journey-middle-text {
+    color: #ffb4d3; 
+    font-family: "Lato", sans-serif; 
+    padding-bottom: 10px
 }
 
 .works-with {
