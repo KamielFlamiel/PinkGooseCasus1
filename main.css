@@ -272,7 +272,7 @@
     justify-content: center;
     width: 1200px;
     height: 340px;
-    padding-top: 150px;
+    padding-top: 200px;
 }
 
 .head-text {
@@ -310,12 +310,136 @@
     height: 120px;
 }
 
+.crypto-image-polygon {
+    width: 120px;
+    height: 110px;
+}
+
+.crypto-image-gnosis-safe {
+    width: 115px;
+    height: 120px;
+}
+
+.crypto-image-snapshot {
+    width: 110px;
+    height: 120px;
+}
+
+.crypto-image-ens {
+    width: 120px;
+    height: 130px;
+}
+
+.crypto-image-open-sea {
+    width: 110px;
+    height: 130px;
+}
+
 .crypto-box-text {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     text-align: center;
     color: #e5e5e5;
     font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    margin-top: 10px;
     justify-content: space-evenly;
+    font-weight: 500;
+    margin-top: 5px;
+    width: 200px;
+}
+
+.help-every-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 250px;
+    width: 795px;
+    height: 100px;
+}
+
+.help-head-text {
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 54px;
+}
+
+.portrait-box-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+    width: 1000px;
+}
+
+.portrait-box {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 160px;
+    height: 140px;
+    margin: 15px;
+    
+}
+
+.portrait {
+    border: none;
+    border-radius: 40px;
+    width: 160px;
+    height: 160px;
+}
+
+.help-subject-text-row1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 100px;
+}
+
+.help-subject-text-row2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 100px;
+}
+
+.help-subject-text-row3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 100px;
+}
+
+.help-subject-text-row4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 100px;
+}
+
+.help-text {
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.star-text {
+    width: 30px;
+    height: 30px;
+}
+
+.star-text-big {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
 }
