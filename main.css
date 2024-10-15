@@ -597,8 +597,35 @@
     height: 39.92px;
 }
 
+.decrypt-head-text {
+    padding-left: 30px;
+    color: #10151a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.decrypt-middle-text {
+    padding-left: 30px;
+    color: #10151a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 75px;
+}
+
+.decrypt-bottom-text {
+    padding-left: 30px;
+    color: #10151a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 .blockworks-container {
     display: flex;
+    flex-direction: column;
     width: 361px;
     height: 382px;
     background-color: #e2c1f9;
@@ -606,11 +633,77 @@
     border-radius: 20px;
 }
 
+.blockworks-logo {
+    margin: 30px;
+    width: 140px;
+    height: 22.3px;
+}
+
+.blockworks-head-text {
+    padding-left: 30px;
+    color: #10151a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.blockworks-middle-text {
+    padding-left: 30px;
+    color: #10151a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 75px;
+}
+
+.blockworks-bottom-text {
+    padding-left: 30px;
+    color: #10151a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 .techcrunch-container {
     display: flex;
+    flex-direction: column;
     width: 361px;
     height: 382px;
     background-color: #dbe268;
     border: none;
     border-radius: 20px;
+}
+
+.techcrunch-logo {
+    margin: 30px;
+    width: 159px;
+    height: 23.97px;
+}
+
+.techcrunch-head-text {
+    padding-left: 30px;
+    color: #10151a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.techcrunch-middle-text {
+    padding-left: 30px;
+    color: #10151a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 75px;
+}
+
+.techcrunch-bottom-text {
+    padding-left: 30px;
+    color: #10151a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
 }
