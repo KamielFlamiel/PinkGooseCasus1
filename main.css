@@ -106,15 +106,7 @@
     font-size: 26px;
 }
 
-.get-started-button-text {
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    outline: none;
-    margin-bottom: -80px;
-    font-weight: bold;
-}
-
-.get-started button {
+.get-started-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,6 +118,15 @@
     border-radius: 10px;
     background-color: #CEAAFF;
     color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    outline: none;
+    margin-bottom: -80px;
+    font-weight: bold;
+}
+
+.get-started-button:hover {
+    background-color: #c499ff;
     cursor: pointer;
 }
 
@@ -534,6 +535,11 @@
     border-radius: 16px;
 }
 
+input[type="submit"].input-subscribe:hover {
+    background-color: #c499ff;
+    cursor: pointer;
+}
+    
 .press-container {
     display: flex;
     flex-direction: column;
@@ -548,7 +554,7 @@
     flex-direction: row;
     justify-content: left;
     height: 150px;
-    width: 150;
+    width: 160px;
     font-family: "Lato", sans-serif;
     font-weight: bold;
     font-size: 54px;
@@ -556,21 +562,21 @@
 }
 
 .press-image {
-    display: flex;
     width: 58px;
     height: 60px;
-    position: absolute;
-    left: 375px;
-    top: 4400px
+    padding-left: 30px;
+    padding-bottom: 10px;
 }
 
 .press-see-all {
     color: #8395a7;
+    width: 100%;
     font-family: "Montserrat", sans-serif;
     font-size: 22px;
     font-weight: bold;
-    padding-left: 900px;
+    padding-left: 875px;
     padding-top: 25px;
+    text-decoration: none;
 }
 
 .card-container {
@@ -621,6 +627,7 @@
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .blockworks-container {
@@ -663,6 +670,7 @@
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .techcrunch-container {
@@ -706,4 +714,5 @@
     font-size: 16px;
     font-weight: bold;
     padding-top: 15px;
+    text-decoration: none;
 }
