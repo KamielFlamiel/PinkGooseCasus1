@@ -81,6 +81,11 @@
     font-size: 18px;
 }
 
+.login:hover {
+    background-color: #1b2631;
+    cursor: pointer;
+}
+
 .get-started {
     display: flex;
     flex-direction: column;
