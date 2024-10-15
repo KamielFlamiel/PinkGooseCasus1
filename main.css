@@ -369,7 +369,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 250px;
+    padding-top: 450px;
     width: 795px;
     height: 100px;
 }
@@ -466,20 +466,10 @@
     width: 1140px;
     height: 390px;
     background-color: #121e28;
-    border: none;
+    border: solid;
+    border-color: #2a3744;
     border-radius: 30px;
-    position: relative;
-}
-
-.weekly-digest::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 1000px;
-    height: 100%;
-    background-image: linear-gradient(to left, rgba(42, 55, 68, 0) 0%, rgba(42, 55, 68, 0.2) 20%, rgba(42, 55, 68, 0.3) 40%, rgba(42, 55, 68, 0.3) 60%, rgba(42, 55, 68, 0.2) 80%, rgba(42, 55, 68, 0) 100%);
-    transform: translateX(-50%);
+    
 }
 
 .weekly-digest-head-text {
@@ -505,13 +495,122 @@
     padding-left: 60px;
 }
 
+.input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    padding-top: 75px;
+    padding-left: 250px;
+    width: 705px;
+    height: 68px;
+}
+
 .input-email {
     display: flex;
-    align-items: center;
-    justify-content: center;
     width: 506px;
     height: 68px;
+    border: solid;
+    border-color: #2a3744;
+    border-radius: 16px;
+    background-color: #121e28;
+    font-family: "Monsterrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #3d4c5b;
+    margin-right: 30px;
+}
+
+.input-subscribe {
+    display: flex;
+    width: 175px;
+    height: 68px;
+    background-color: #ceaaff;
+    color: #10151a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
     border: none;
     border-radius: 16px;
+}
 
+.press-container {
+    display: flex;
+    flex-direction: column;
+    width: 1141px;
+    height: 494px;
+    padding-top: 150px;
+
+}
+
+.press-head-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    height: 150px;
+    width: 150;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 54px;
+    color: #e5e5e5;
+}
+
+.press-image {
+    display: flex;
+    width: 58px;
+    height: 60px;
+    position: absolute;
+    left: 375px;
+    top: 4400px
+}
+
+.press-see-all {
+    color: #8395a7;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 900px;
+    padding-top: 25px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1139px;
+    height: 382px;
+}
+
+.decrypt-container {
+    display: flex;
+    flex-direction: column;
+    width: 361px;
+    height: 382px;
+    background-color: #77e6ff;
+    border: none;
+    border-radius: 20px;
+}
+
+.decrypt-logo {
+    margin: 30px;
+    width: 120px;
+    height: 39.92px;
+}
+
+.blockworks-container {
+    display: flex;
+    width: 361px;
+    height: 382px;
+    background-color: #e2c1f9;
+    border: none;
+    border-radius: 20px;
+}
+
+.techcrunch-container {
+    display: flex;
+    width: 361px;
+    height: 382px;
+    background-color: #dbe268;
+    border: none;
+    border-radius: 20px;
 }
