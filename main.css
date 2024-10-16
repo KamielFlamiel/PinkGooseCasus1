@@ -721,3 +721,179 @@ input[type="submit"].input-subscribe:hover {
     padding-top: 15px;
     text-decoration: none;
 }
+
+.podcast-container {
+    display: flex;
+    flex-direction: column;
+    width: 1141px;
+    height: 494px;
+    padding-top: 150px;
+
+}
+
+.podcast-head-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    height: 150px;
+    width: 160px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 54px;
+    color: #e5e5e5;
+}
+
+.podcast-image {
+    width: 58px;
+    height: 60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+}
+
+.podcast-see-all {
+    color: #8395a7;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 875px;
+    padding-top: 25px;
+    text-decoration: none;
+}
+
+.podcast-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1140px;
+    height: 442px;
+}
+
+.pomp-container {
+    display: flex;
+    flex-direction: column;
+    width: 361px;
+    height: 334px;
+    background-color: #2a3744;
+    border: none;
+    border-radius: 20px;
+}
+
+.pomp-logo {
+    margin: 30px;
+    width: 120px;
+    height: 39.92px;
+}
+
+.pomp-head-text {
+    padding-left: 30px;
+    color: #10151a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.pomp-middle-text {
+    padding-left: 30px;
+    color: #10151a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 75px;
+}
+
+.pomp-bottom-text {
+    padding-left: 30px;
+    color: #10151a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.unstoppable-container {
+    display: flex;
+    flex-direction: column;
+    width: 361px;
+    height: 382px;
+    background-color: #77e6ff;
+    border: none;
+    border-radius: 20px;
+}
+
+.unstoppable-logo {
+    margin: 30px;
+    width: 120px;
+    height: 39.92px;
+}
+
+.unstoppable-head-text {
+    padding-left: 30px;
+    color: #10151a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.unstoppable-middle-text {
+    padding-left: 30px;
+    color: #10151a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 75px;
+}
+
+.unstoppable-bottom-text {
+    padding-left: 30px;
+    color: #10151a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.zima-container {
+    display: flex;
+    flex-direction: column;
+    width: 361px;
+    height: 382px;
+    background-color: #77e6ff;
+    border: none;
+    border-radius: 20px;
+}
+
+.zima-logo {
+    margin: 30px;
+    width: 120px;
+    height: 39.92px;
+}
+
+.zima-head-text {
+    padding-left: 30px;
+    color: #10151a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.zima-middle-text {
+    padding-left: 30px;
+    color: #10151a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 75px;
+}
+
+.zima-bottom-text {
+    padding-left: 30px;
+    color: #10151a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
