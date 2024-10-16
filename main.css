@@ -3,12 +3,39 @@
     margin: 0;
 }
 
-.main-container {
+.main-container-home {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     height: 6692px;
+    background-color: #0A1117;
+}
+
+.main-container-learn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 2849px;
+    background-color: #0A1117;
+}
+
+.main-container-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 3260px;
+    background-color: #0A1117;
+}
+
+.main-container-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 2280px;
     background-color: #0A1117;
 }
 
@@ -774,38 +801,41 @@ input[type="submit"].input-subscribe:hover {
     flex-direction: column;
     width: 361px;
     height: 334px;
-    background-color: #2a3744;
+    background-color: #121e28;
     border: none;
     border-radius: 20px;
 }
 
 .pomp-logo {
     margin: 30px;
-    width: 120px;
-    height: 39.92px;
+    width: 50px;
+    height: 50px;
+    border: solid;
+    border-radius: 8px;
+    border-color: #2a3744;
 }
 
 .pomp-head-text {
     padding-left: 30px;
-    color: #10151a;
+    color: #ffffff;
     font-family: "Montserrat", sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .pomp-middle-text {
     padding-left: 30px;
-    color: #10151a;
+    color: #e2e2e2;
     font-family: "Montserrat", sans-serif;
     font-size: 17px;
     font-weight: 600;
     padding-top: 15px;
-    padding-bottom: 75px;
+    padding-bottom: 70px;
 }
 
 .pomp-bottom-text {
     padding-left: 30px;
-    color: #10151a;
+    color: #ffffff;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: bold;
@@ -816,39 +846,41 @@ input[type="submit"].input-subscribe:hover {
     display: flex;
     flex-direction: column;
     width: 361px;
-    height: 382px;
-    background-color: #77e6ff;
+    height: 334px;
+    background-color: #121e28;
     border: none;
     border-radius: 20px;
 }
 
 .unstoppable-logo {
     margin: 30px;
-    width: 120px;
-    height: 39.92px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
 }
 
 .unstoppable-head-text {
     padding-left: 30px;
-    color: #10151a;
+    color: #ffffff;
     font-family: "Montserrat", sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .unstoppable-middle-text {
     padding-left: 30px;
-    color: #10151a;
+    color: #e2e2e2;
     font-family: "Montserrat", sans-serif;
     font-size: 17px;
     font-weight: 600;
     padding-top: 15px;
-    padding-bottom: 75px;
+    padding-bottom: 50px;
 }
 
 .unstoppable-bottom-text {
     padding-left: 30px;
-    color: #10151a;
+    color: #ffffff;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: bold;
@@ -859,29 +891,31 @@ input[type="submit"].input-subscribe:hover {
     display: flex;
     flex-direction: column;
     width: 361px;
-    height: 382px;
-    background-color: #77e6ff;
+    height: 334px;
+    background-color: #121e28;
     border: none;
     border-radius: 20px;
 }
 
 .zima-logo {
     margin: 30px;
-    width: 120px;
-    height: 39.92px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
 }
 
 .zima-head-text {
     padding-left: 30px;
-    color: #10151a;
+    color: #ffffff;
     font-family: "Montserrat", sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .zima-middle-text {
     padding-left: 30px;
-    color: #10151a;
+    color: #e2e2e2;
     font-family: "Montserrat", sans-serif;
     font-size: 17px;
     font-weight: 600;
@@ -891,9 +925,194 @@ input[type="submit"].input-subscribe:hover {
 
 .zima-bottom-text {
     padding-left: 30px;
-    color: #10151a;
+    color: #ffffff;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
+}
+
+.star-bottom-decor {
+    padding-top: 60px;
+    width: 77px;
+    height: 88px;
+}
+
+.goose-idea-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    height: 306px;
+    padding-top: 70px;
+}
+
+.goose-idea-head-text {
+    color: #e5e5e5;
+    font-family: "Lato", sans-serif;
+    font-size: 54px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.goose-idea-middle-text {
+    color: #5a6c7e;
+    font-family: "Lato", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+
+.goose-idea-button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 592px;
+    height: 84px;
+}
+
+.telegram-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 280px;
+    height: 84px;
+    background-color: #ffc803;
+    border: none;
+    border-radius: 16px;
+}
+
+.telegram-logo {
+    margin: 15px;
+    width: 52px;
+    height: 52px;
+    border: none;
+    border-radius: 10px;
+}
+
+.telegram-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 20px;
+}
+
+.telegram-head-text {
+    color: #4d3705;
+    font-family: "Montserrat",sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.telegram-middle-text {
+    color: #4d3705;
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.email-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 280px;
+    height: 84px;
+    background-color: #e2c1f9;
+    border: none;
+    border-radius: 16px;
+}
+
+.email-logo {
+    margin: 15px;
+    width: 52px;
+    height: 52px;
+    border: none;
+    border-radius: 10px;
+}
+
+.email-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 20px;
+}
+
+.email-head-text {
+    color: #40354b;
+    font-family: "Montserrat",sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.email-middle-text {
+    color: #40354b;
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 168px;
+    background-color: #121e28;
+    margin-top: auto;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 298px;
+    height: 27px;
+    padding-right: 125px;
+}
+
+.footer-text-about {
+    color: #ffffff;
+    font-family: "Montserrat",sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footer-text-jobs {
+    color: #ffffff;
+    font-family: "Montserrat",sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footer-text-legal {
+    color: #ffc803;
+    font-family: "Montserrat",sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 284px;
+    height: 56px;
+    padding-right: 220px;
+}
+
+.footer-image {
+    width: 56px;
+    height: 56px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
 }
