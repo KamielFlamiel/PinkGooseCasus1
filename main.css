@@ -1130,8 +1130,8 @@ input[type="submit"].input-subscribe:hover {
 
 .hero-head-text {
     display: flex;
-    flex-direction: row;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
     height: 150px;
     width: 160px;
     font-family: "Lato", sans-serif;
@@ -1140,18 +1140,7 @@ input[type="submit"].input-subscribe:hover {
     color: #e5e5e5;
 }
 
-.podcast-see-all {
-    color: #8395a7;
-    width: 100%;
-    font-family: "Montserrat", sans-serif;
-    font-size: 22px;
-    font-weight: bold;
-    padding-left: 875px;
-    padding-top: 25px;
-    text-decoration: none;
-}
-
-.podcast-card-container {
+.hero-card-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1159,26 +1148,27 @@ input[type="submit"].input-subscribe:hover {
     height: 442px;
 }
 
-.pomp-container {
+.john-container {
     display: flex;
     flex-direction: column;
-    width: 361px;
+    align-items: center;
+    width: 352px;
     height: 334px;
-    background-color: #121e28;
+    background-color: #ffb4d3;
     border: none;
     border-radius: 20px;
 }
 
-.pomp-logo {
+.john-image {
     margin: 30px;
-    width: 50px;
-    height: 50px;
-    border: solid;
-    border-radius: 8px;
+    width: 160px;
+    height: 160px;
+    border: none;
+    border-radius: 40px;
     border-color: #2a3744;
 }
 
-.pomp-head-text {
+.john-head-text {
     padding-left: 30px;
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
@@ -1186,7 +1176,7 @@ input[type="submit"].input-subscribe:hover {
     font-weight: bold;
 }
 
-.pomp-middle-text {
+.john-middle-text {
     padding-left: 30px;
     color: #e2e2e2;
     font-family: "Montserrat", sans-serif;
@@ -1196,7 +1186,7 @@ input[type="submit"].input-subscribe:hover {
     padding-bottom: 70px;
 }
 
-.pomp-bottom-text {
+.john-bottom-text {
     padding-left: 30px;
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
