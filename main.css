@@ -1118,3 +1118,89 @@ input[type="submit"].input-subscribe:hover {
     border-radius: 100px;
     cursor: pointer;
 }
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    width: 1141px;
+    height: 494px;
+    padding-top: 150px;
+
+}
+
+.hero-head-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    height: 150px;
+    width: 160px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 54px;
+    color: #e5e5e5;
+}
+
+.podcast-see-all {
+    color: #8395a7;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 875px;
+    padding-top: 25px;
+    text-decoration: none;
+}
+
+.podcast-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1140px;
+    height: 442px;
+}
+
+.pomp-container {
+    display: flex;
+    flex-direction: column;
+    width: 361px;
+    height: 334px;
+    background-color: #121e28;
+    border: none;
+    border-radius: 20px;
+}
+
+.pomp-logo {
+    margin: 30px;
+    width: 50px;
+    height: 50px;
+    border: solid;
+    border-radius: 8px;
+    border-color: #2a3744;
+}
+
+.pomp-head-text {
+    padding-left: 30px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pomp-middle-text {
+    padding-left: 30px;
+    color: #e2e2e2;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 70px;
+}
+
+.pomp-bottom-text {
+    padding-left: 30px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
