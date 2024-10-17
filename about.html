@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +14,7 @@
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
 </head>
+
 <body>
     <div class="main-container-about">
         <div class="header">
@@ -30,31 +32,122 @@
             <button class="login">Login</button>
         </div>
         <div class="hero-container">
-            <div class="hero-text-container"></div>
-            <h1 class="hero-head-text">Our heroes</h1>
+            <div class="hero-text-container">
+                <h1 class="hero-head-text">Our heroes</h1>
+            </div>
+
             <div class="hero-card-container">
                 <div class="john-container">
                     <img class="john-image" src="img/Man1.png" alt="photo of john">
-                    <h1 class="john-head-text">John Doe</h1>
-                    <span class="john-middle-text">Lead programmer</span>
-                    <a class="john-bottom-text" href="">contact&#8702;</a>
+                    <div class="john-text-container">
+                        <h1 class="john-head-text">John Doe</h1>
+                        <span class="john-middle-text">Lead programmer</span>
+                        <a class="john-bottom-text" href="">Contact&#8702;</a>
+                    </div>
+
                 </div>
                 <div class="jane-container">
                     <img class="jane-image" src="img/Vrouw1.png" alt="photo of jane">
-                    <h1 class="jane-head-text">Jane Doe</h1>
-                    <span class="jane-middle-text">CEO</span>
-                    <a class="jane-bottom-text" href="">contact&#8702;</a>
+                    <div class="jane-text-container">
+                        <h1 class="jane-head-text">Jane Doe</h1>
+                        <span class="jane-middle-text">CEO</span>
+                        <a class="jane-bottom-text" href="">Contact&#8702;</a>
+                    </div>
+
                 </div>
                 <div class="hans-container">
                     <img class="hans-image" src="img/Man2.png" alt="photo of hans">
-                    <h1 class="hans-head-text">Hans Erikson</h1>
-                    <span class="hans-middle-text">UX Dev Ops Reliability engineer</span>
-                    <a class="hans-bottom-text" href="">Listen&#8702;</a>
+                    <div class="hans-text-container">
+                        <h1 class="hans-head-text">Hans Erikson</h1>
+                        <span class="hans-middle-text">UX Dev Ops Reliability engineer</span>
+                        <a class="hans-bottom-text" href="">Listen&#8702;</a>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="weekly-digest">
+            <h2 class="weekly-digest-head-text">Weekly digest</h2>
+            <span id="news" class="weekly-digest-text">Latest news in DAOs and Web3</span>
+            <div class="input-container">
+                <input class="input-email" type="text" name="email" value="Your email">
+                <input class="input-subscribe" type="submit" name="subscribe" value="Subscribe">
+            </div>
+        </div>
+        <div class="press-container">
+            <div class="press-text-container"></div>
+            <h1 class="press-head-text">Press
+                <img class="press-image" src="img/Ster3.png" alt="star decoration">
+                <a class="press-see-all" href="">See all&#8702;</a>
+            </h1>
+            <div class="card-container">
+                <div class="decrypt-container">
+                    <img class="decrypt-logo" src="img/Decrypt-logo.png" alt="decrypt logo">
+                    <h1 class="decrypt-head-text">Superdao Raises $10.5 Million to Build an 'All-in-One' DAO Platform
+                    </h1>
+                    <span class="decrypt-middle-text">Superdao aims to make it easier <br> for online communities to
+                        build <br> and launch DAOs</span>
+                    <a class="decrypt-bottom-text" href="">Read&#8702;</a>
+                </div>
+                <div class="blockworks-container">
+                    <img class="blockworks-logo" src="img/Blockworks-logo.png" alt="blockworks logo">
+                    <h1 class="blockworks-head-text">The Y Combinator of <br> Web3 Attracts Record <br> Number of DAO
+                        Startups</h1>
+                    <span class="blockworks-middle-text">DAOs and related startups made <br> up an "overwhelming number
+                        of applicants" for a Web3 <br> accelerator's cohort this year</span>
+                    <a class="blockworks-bottom-text" href="">Read&#8702;</a>
+                </div>
+                <div class="techcrunch-container">
+                    <img class="techcrunch-logo" src="img/techcrunch-logo.png" alt="techcrunch logo">
+                    <h1 class="techcrunch-head-text">VC-backed DAO startups <br> are racing to define what <br> DAOs
+                        actually are</h1>
+                    <span class="techcrunch-middle-text">Not all 'decentralized autonomous organizations' are
+                        autonomous... <br> or decentralized</span>
+                    <a class="techcrunch-bottom-text" href="">Read&#8702;</a>
+                </div>
+            </div>
+        </div>
+        <div class="podcast-container">
+            <div class="podcast-text-container"></div>
+            <img class="podcast-image" src="img/Star4.png" alt="star decoration">
+            <h1 class="podcast-head-text">Podcast
+                <a class="podcast-see-all" href="">See all&#8702;</a>
+            </h1>
+            <div class="podcast-card-container">
+                <div class="pomp-container">
+                    <img class="pomp-logo" src="img/Podcast1.png" alt="pomp logo">
+                    <h1 class="pomp-head-text">Understanding DAOs with Yury Lifshits</h1>
+                    <span class="pomp-middle-text">The Pomp Podcast <br> by Anthony Pompliano</span>
+                    <a class="pomp-bottom-text" href="">Listen&#8702;</a>
+                </div>
+                <div class="unstoppable-container">
+                    <img class="unstoppable-logo" src="img/Podcast2.png" alt="unstoppable logo">
+                    <h1 class="unstoppable-head-text">Everything You Need to Know About DAOs with Yury Lifshits from
+                        Superdao</h1>
+                    <span class="unstoppable-middle-text">The Unstoppable Podcast <br> by Josh Gordon</span>
+                    <a class="unstoppable-bottom-text" href="">Watch&#8702;</a>
+                </div>
+                <div class="zima-container">
+                    <img class="zima-logo" src="img/Podcast3.png" alt="zima red logo">
+                    <h1 class="zima-head-text">Yury Lifshits - Superdao: The "Shopify" for DAOs</h1>
+                    <span class="zima-middle-text">Zima Red <br> by Andrew Stainwold</span>
+                    <a class="zima-bottom-text" href="">Listen&#8702;</a>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-text">
+                <a class="footer-text-about" href="">About</a>
+                <a class="footer-text-jobs" href="">Jobs</a>
+                <a class="footer-text-legal" href="">Legal</a>
+            </div>
+            <div class="footer-logo">
+                <img class="footer-image" src="img/Twitter-logo.png" href="https://x.com/" alt="twitter logo">
+                <img class="footer-image" src="img/Telegram-logo2.png" href="https://telegram.org/" alt="telegram logo">
+                <img class="footer-image" src="img/youtube-logo.png" href="https://www.youtube.com/" alt="youtube logo">
+                <img class="footer-image" src="img/discord-logo.png" href="https://discord.com/" alt="discord logo">
+            </div>
+        </footer>
     </div>
-   
-    
 </body>
+
 </html>
