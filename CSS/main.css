@@ -180,6 +180,9 @@
     align-items: center;
     justify-content: space-evenly;
     margin-right: 190px;
+}
+
+.project-ready-head-text {
     color: #fff;
     font-family: "Lato", sans-serif;
     font-weight: bold;
@@ -207,18 +210,36 @@
     margin: 10px;
 }
 
-.large-button {
+.large-button-first {
     width: 224px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 20px;
+    color: #ffB4D3;
 }
 
-.medium-button {
+.large-button-second {
+    width: 224px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #77e6ff;
+}
+
+.medium-button-first {
     width: 184px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 20px;
+    color: #ffc24c;
+}
+
+.medium-button-second {
+    width: 184px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #d387f7;
 }
 
 .small-button {
