@@ -548,10 +548,11 @@
     border-radius: 16px;
     background-color: #121e28;
     font-family: "Monsterrat", sans-serif;
-    font-weight: 500;
+    font-weight: 550;
     font-size: 20px;
     color: #3d4c5b;
     margin-right: 30px;
+    text-indent: 25px;
 }
 
 .input-subscribe {
@@ -1328,6 +1329,7 @@ input[type="submit"].input-subscribe:hover {
     border: solid;
     border-radius: 30px;
     border-color: #2a3744;
+    margin-top: 125px;
 }
 
 .send-post-text {
@@ -1336,6 +1338,8 @@ input[type="submit"].input-subscribe:hover {
     font-size: 54px;
     font-weight: bold;
     padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 100px;
 }
 
 .send-post-input {
@@ -1353,13 +1357,33 @@ input[type="submit"].input-subscribe:hover {
     border-radius: 16px;
     background-color: #121e28;
     font-family: "Monsterrat", sans-serif;
-    font-weight: 500;
+    font-weight: 550;
     font-size: 20px;
     color: #3d4c5b;
     margin-right: 30px;
+    margin-top: 25px;
+    text-indent: 25px;
 }
 
 .input-message {
+    display: flex;
+    width: 506px;
+    height: 60px;
+    border: solid;
+    border-color: #2a3744;
+    border-radius: 16px;
+    background-color: #121e28;
+    font-family: "Monsterrat", sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+    color: #3d4c5b;
+    margin-right: 30px;
+    margin-top: 25px;
+    text-indent: 25px;
+    padding-bottom: 250px;
+}
+
+.input-color {
     display: flex;
     width: 506px;
     height: 68px;
@@ -1368,9 +1392,55 @@ input[type="submit"].input-subscribe:hover {
     border-radius: 16px;
     background-color: #121e28;
     font-family: "Monsterrat", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 20px;
     color: #3d4c5b;
     margin-right: 30px;
+    margin-top: 25px;
+    text-indent: 25px;
+    background-image: url('img/Pink-arrow.png');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: 460px 20px;
 }
 
+.color-option-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 506px;
+    height: 203px;
+    border: solid;
+    border-color: #2a3744;
+    border-radius: 16px;
+    background-color: #121e28;
+    margin-right: 30px;
+    text-indent: 25px;
+}
+
+.color-text {
+    font-family: "Monsterrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #3d4c5b;
+}
+
+.input-send {
+    display: flex;
+    width: 175px;
+    height: 68px;
+    background-color: #ceaaff;
+    color: #10151a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 16px;
+    margin-left: 700px;
+    margin-top: 25px;
+}
+
+input[type="submit"].input-send:hover {
+    background-color: #c499ff;
+    cursor: pointer;
+}
