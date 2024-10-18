@@ -349,7 +349,7 @@
 .works-with-head-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 900px;
     height: 200;
 }
@@ -357,11 +357,13 @@
 .works-with-image-first {
     width: 65px;
     height: 56px;
+    padding-right: 100px;
 }
 
 .works-with-image-second {
     width: 50px;
     height: 50px;
+    padding-right: 100px;
 }
 
 .works-with-head-text {
