@@ -3,6 +3,23 @@
     margin: 0;
 }
 
+/* hierboven staat margin 0 en padding 0 zodat er geen ruimte tussen de pagina zit */
+
+/* ik zal ook wel uitleggen wat ik allemaal heb gebruikt dat speciaal is en wat ik niet vaak heb gebruikt, dit is zodat ik niet bij elke class een comment neer zet */
+
+/* text-indent = om de tekst afstand te geven van de item
+   box-shadow = hiermee heb ik een gloed om een paar items gezet
+   list-style-type = hiermee kun je kiezen of je een stijl bij je lijst wil hebben, bijvoorbeeld stippen of cijfers
+   text-decoration = als je een a class zou gebruiken zie je meestal een lijn eronder, dit is text decoration en door none erbij te zetten haal je die lijn weg
+   border = hiermee kun je een rand om een item heen zetten
+   border-radius = met dit kun je de hoekjes van een item rond laten worden
+   border-type = hiermee kun je de rand dikker maken of gewoon niets
+   background-image = voor een plaatje die je in de achtergrond neer zet
+   background-repeat = zodat je geen herhaling heb van het plaatje
+*/
+
+/* hieronder zit de achtergrond en het hele pagina */
+
 .main-container-home {
     display: flex;
     flex-direction: column;
@@ -38,6 +55,8 @@
     height: 2280px;
     background-color: #0A1117;
 }
+
+/* hieronder zit de navigatie balk / header, daarin zit de logo, tekst en login button */
 
 .header {
     display: flex;
@@ -336,6 +355,16 @@
     padding-bottom: 10px
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    margin: 10px 0;
+}
+
 .works-with {
     display: flex;
     flex-direction: column;
@@ -532,7 +561,7 @@
     margin: 0 20px;
     vertical-align: middle;
 }
- 
+
 .weekly-digest {
     display: flex;
     flex-direction: column;
@@ -543,7 +572,7 @@
     border: solid;
     border-color: #2a3744;
     border-radius: 30px;
-    
+
 }
 
 .weekly-digest-head-text {
@@ -613,7 +642,7 @@ input[type="submit"].input-subscribe:hover {
     background-color: #c499ff;
     cursor: pointer;
 }
-    
+
 .press-container {
     display: flex;
     flex-direction: column;
@@ -1044,14 +1073,14 @@ input[type="submit"].input-subscribe:hover {
 
 .telegram-head-text {
     color: #4d3705;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: bold;
 }
 
 .telegram-middle-text {
     color: #4d3705;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 500;
 }
@@ -1086,17 +1115,19 @@ input[type="submit"].input-subscribe:hover {
 
 .email-head-text {
     color: #40354b;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: bold;
 }
 
 .email-middle-text {
     color: #40354b;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 500;
 }
+
+/* hieronder zit de footer, de enigste dat echt waar is om te benoemen is de cursor : pointer gedeelte, dit is zodat als je er over heen gaat met je muis dat je het klik icoontje krijgt */
 
 .footer {
     display: flex;
@@ -1122,7 +1153,7 @@ input[type="submit"].input-subscribe:hover {
 
 .footer-text-about {
     color: #ffffff;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 22px;
     font-weight: 500;
     text-decoration: none;
@@ -1130,7 +1161,7 @@ input[type="submit"].input-subscribe:hover {
 
 .footer-text-jobs {
     color: #ffffff;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 22px;
     font-weight: 500;
     text-decoration: none;
@@ -1138,7 +1169,7 @@ input[type="submit"].input-subscribe:hover {
 
 .footer-text-legal {
     color: #ffc803;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 22px;
     font-weight: 500;
     text-decoration: none;
@@ -1160,6 +1191,8 @@ input[type="submit"].input-subscribe:hover {
     border-radius: 100px;
     cursor: pointer;
 }
+
+/* hieronder zit de css van de classes die in de andere pagina's zitten */
 
 .hero-container {
     display: flex;
