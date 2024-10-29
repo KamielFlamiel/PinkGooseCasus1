@@ -71,12 +71,11 @@
 .logo {
     display: flex;
     align-items: flex-end;
-    justify-content: space-evenly;
-    width: 92px;
+    width: auto;
     height: 44px;
 }
 
-.pink-logo {
+.logo-text {
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
@@ -84,24 +83,25 @@
     color: #fff;
 }
 
-.goose-logo {
+.pink-text {
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 40px;
-    word-spacing: 50px;
     color: #ffB4D3;
 }
 
-.text-container {
+.text-container ul {
     display: flex;
+    list-style-type: none;
     justify-content: space-evenly;
-    align-items: center;
     width: 400px;
     height: 21px;
     background-color: #0A1117;
     font-family: "Montserrat", sans-serif;
     color: #fff;
+    padding-right: 135px;
+
 }
 
 .nav-text {
